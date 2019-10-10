@@ -1,0 +1,141 @@
+body { 
+	font-family: 'Open Sans', sans-serif; 
+}
+.container { 
+	width:1200px;  
+	margin: 0 auto;
+} 
+.full-width { 
+	width:1200px;
+	margin:0 auto; 
+} 
+.half-width { 
+	width:600px; 
+	margin:0 auto;  
+	float:left;
+}
+.third-width { 
+	width:400px;  
+	margin:0 auto;
+	float:left;
+}
+#about { 
+	background-color:#ff654a; 
+	padding:75px; 
+	height:1050px; 
+}
+#portfolio { 
+	background-color:#ffffff; 
+	height:850px; 
+	padding:75px;
+} 
+#contact { 
+	background-color:#ff654a;
+	height:650px; 
+	padding:200px; 
+	clear:both;
+}
+footer { 
+	background-color:#ff654a;
+	clear:both;
+ }
+header { 
+	background-color:#ffffff; 
+	height:800px;
+	width:1200px; 
+	} 
+header h1 { 
+	color:#313131;  
+	font-size:64px; 
+	font-family: 'Libre Baskerville', serif; 
+	font-weight:bold;
+	text-align:left; 
+} 
+header h1 span { 
+	color:#ff654a;  
+} 
+header p { 
+	color:#313131;
+	font-size:48px;
+	font-family:'Open Sans', sans-serif;
+	text-align: left;
+} 
+header nav { 
+	float:right; 
+	padding:46px 0;
+}
+header nav ul {
+	margin:0;
+	padding: 0;
+}
+header nav ul li { 
+	text-transform: uppercase; 
+	font-weight: bold;
+	font-size:14px;
+	padding:0 10px;
+	display:inline;
+	}
+header nav ul li a { 
+	color:#313131;
+	word-spacing:25px; 
+} 
+#about h2 { 
+	color:#ffffff;
+	font-size:36px;
+	font-family: 'Libre Baskerville', serif;
+	text-align: center; 
+} 
+#about img { 
+	margin-left:455px;
+	margin-right:500px;  
+}
+#about p { 
+	color:#ffffff;
+	font-size:24px;
+	font-family:'Open Sans', sans-serif; 
+	text-align:center;
+}
+#portfolio h2 { 
+	color:#313131;
+	font-size:36px; 
+	font-family:'Libre Baskerville', serif;
+	text-align:center;
+	padding-bottom: 50px;
+} 
+#portfolio img { 
+ 	padding-bottom:25px; 
+ 	border: 1px #b7b7b7 solid;
+ 	display:inline-block;
+}
+#portfolio p { 
+	color:#313131; 
+	font-size:24px;
+	font-family:'Open Sans', sans-serif; 
+	margin-right:40px;
+	text-align:center;
+}
+#contact h2 { 
+	color:#ffffff;
+	font-size:36px;
+	font-family:'Libre Baskerville', serif; 
+	text-align:center;
+	padding-bottom: 100px;
+}
+#contact p { 
+	color:#ffffff;
+	font-size:24px; 
+	font-family:'Open Sans', sans-serif;
+	line-height: 35px;
+	text-align: center;
+}
+#contact img { 
+	display: inline-block; 
+	margin-left: 50px; /*****come back and adjust*****/
+}
+footer p {
+	color:#ffffff;
+	font-size: 18px; 
+	font-family: 'Open Sans', sans-serif;
+	text-align:center;
+}
+/*****fix footer issue*****/
